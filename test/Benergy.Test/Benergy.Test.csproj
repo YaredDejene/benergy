@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Benergy.Test Class Library</Description>
+    <Authors>Yared Dejene</Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Benergy.Test</AssemblyName>
+    <PackageId>Benergy.Test</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Benergy.Core\Benergy.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.7.1" />
+    <PackageReference Include="AutoMapper" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

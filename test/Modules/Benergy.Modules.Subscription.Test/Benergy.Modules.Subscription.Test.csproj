@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+        <Description>Benergy.Modules.Subscription.Test Class Library</Description>
+    <Authors>Yared Dejene</Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Benergy.Modules.Subscription.Test</AssemblyName>
+    <PackageId>Benergy.Modules.Subscription.Test</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+      <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Benergy.API\Benergy.API.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Benergy.Modules.Subscription\Benergy.Modules.Subscription.csproj" />
+    <ProjectReference Include="..\..\Benergy.Test\Benergy.Test.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="Moq" Version="4.7.1" />
+    <PackageReference Include="AutoMapper" Version="6.0.0" />
+  </ItemGroup>
+</Project>

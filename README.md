@@ -1,0 +1,3 @@
+<h2>Benergy</h2>
+
+Sheba Books PLC is a fast growing online business in Addis Ababa. Recently they expanded their most popular online bookstore business to many markets. However, after an internal audit of their IT systems, it was noted that they have a challenge scaling their subscriptions service. Following this revelation, their product team sat down and brainstormed on ways to improve on this area. Some of the ideas suggested were to first of all, to build a loosely de-coupled set of services with an aim to deliver a greater user experience globally. They went further to break down the affected models: Users, Subcription and Plans. Users get to subscribe to 3 plans: Starter, Economy, Legend
